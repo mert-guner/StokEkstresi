@@ -10,7 +10,7 @@ namespace StokEkstresi.Models.DataLayer
 {
     public class DatabaseContext
     {
-        public static string ConnectionString { get { return @"Data Source=LAPTOP-4ADVPLF2;Initial Catalog=Test;Integrated Security=True"; } }
+        public static string ConnectionString { get { return @"Data Source=LAPTOP;Initial Catalog=Test;Integrated Security=True"; } }
 
 
         public static DataTable ExecuteReader(CommandType storedProcedure, string commandText, ParameterInfo[] parameterNames, params object[] parameterValues)
